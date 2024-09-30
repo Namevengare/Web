@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    background-image: url(/public/img/registroBG.jpg); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Asegura que el fondo ocupe toda la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Evita que se desborde contenido */
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.1); /* Efecto translúcido */
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Efecto de vidrio esmerilado */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 400px; /* Ajusta el ancho del formulario */
+    width: 100%;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 16px;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: white;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #dddddd;
+  }
+  
+  form p {
+    color: #ffffff;
+  }

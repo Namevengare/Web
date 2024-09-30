@@ -1,0 +1,107 @@
+/* Estilos para el contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/public/img/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg); /* Coloca aquí la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Estilos para el formulario */
+  .login-form {
+    background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+  }
+  
+  /* Título */
+  .login-form h2 {
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+  
+  /* Estilo de los campos de entrada */
+  .input-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.75rem 2.5rem; /* Espacio para el ícono */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo del ícono */
+  .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  /* Opciones adicionales como "Recuérdame" y "Olvidaste tu contraseña?" */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .options a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  /* Estilo del botón */
+  .login-button {
+    background-color: #fff;
+    color: #333;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Enlace a la página de registro */
+  .login-form p {
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+  .login-form a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  
